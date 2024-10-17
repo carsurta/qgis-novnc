@@ -16,4 +16,5 @@ docker build -t qgis-novnc .
 docker run -d -p 6080:6080 qgis-novnc
 ```
 실행 후 웹브라우저에서 http://localhost:6080 접속
+
 아직 포트 설정 등의 기능을 넣지는 않았습니다.
